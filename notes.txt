@@ -1,2 +1,4 @@
 package BayesFactor
 function ttestBF()
+
+sample_data <- read.csv(text=getURL('https://raw.githubusercontent.com/dab414/bayes4days/master/sample_data.csv'))
